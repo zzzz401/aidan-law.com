@@ -1,0 +1,51 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title:       "Aidan's Blog"
+description: "A blog about my life and other things"
+url:
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          America/Chicago
+markdown:          kramdown
+highlighter:       pygments
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Aidan Law
+  avatar: avatar.jpg
+  job: "IT Intern"
+  bio: "Aspiring Linux System Administrator"
+  email: "afl@aidan-law.com"
+  disqus-shortname: "aidanlaw"
+  google:
+    plus:
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: "zzzz401"
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  steam: "zzzz401"
+  youtube: #Kept Incase of Channel
