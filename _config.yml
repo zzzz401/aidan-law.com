@@ -49,3 +49,7 @@ owner:
   linkedin: #username
   steam: "zzzz401"
   youtube: #Kept Incase of Channel
+
+
+gems:
+  - jekyll-sitemap
