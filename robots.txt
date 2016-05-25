@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://aidan-law.com/sitemap.xml
