@@ -1,8 +1,0 @@
-
----
-layout: none
-permalink: .htaccess
----
-RewriteEngine On
-RewriteCond %{http_host} ^aidan-law.com [nc]
-RewriteRule ^(.*)$ https://aidan-law.com/$1 [r=301,nc]
