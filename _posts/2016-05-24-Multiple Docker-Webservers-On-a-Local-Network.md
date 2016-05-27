@@ -7,7 +7,9 @@ comments: true
 tags: Docker Linux Debian IPAliasing
 ---
 If you have been using Docker to host web services, soon you will run into a problem. What do you do when multiple containers need port 80? Well in this post I will be discussing this scenario in a local network perspective.
-Say you want to run 2 Apache Containers both running on port 80. You will get this error when starting the second container: ```Error starting userland proxy: listen tcp 0.0.0.0:80: bind: address already in use.```
+Say you want to run 2 Apache Containers both running on port 80. You will get this error when starting the second container: 
+```Error starting userland proxy: listen 
+tcp 0.0.0.0:80: bind: address already in use.```
 My simple solution *IP Aliasing*
 <!--more-->
 
