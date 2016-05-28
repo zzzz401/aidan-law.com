@@ -35,7 +35,7 @@ owner:
   avatar: avatar.jpg
   job: "IT Intern"
   bio: "Aspiring Linux System Administrator"
-  email: "afl@aidan-law.com"
+  #email: "afl@aidan-law.com"
   disqus-shortname: "aidanlaw"
   google:
     plus:
@@ -44,10 +44,10 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: "zzzz401"
+  #github: "zzzz401"
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
-  steam: "zzzz401"
+  #steam: "zzzz401"
   youtube: #Kept Incase of Channel
   bitcoin: "1MrXMKEq2ib9tVoWgQaLDrtQtw7DGUJ6hq"
 
