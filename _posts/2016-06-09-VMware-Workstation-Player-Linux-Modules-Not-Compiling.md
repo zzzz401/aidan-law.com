@@ -15,11 +15,11 @@ _Note: You will need Root Privileges to modify these files_
 * Make a backup of this directory in case something goes wrong
 * Untar ```vmmon.tar``` by running ```tar -xvf vmmon.tar```
 * Open ```/vmmon-only/linux/hostif.c``` in the newly created directory
-* Change line 1165 from {% highlight c %}retval = get_user_pages(current, current->mm, (unsigned long)uvAddr,{% endhighlight %} to {% highlight c %}retval = get_user_pages_remote(current, current->mm, (unsigned long)uvAddr,{% endhighlight %}
+* Change line 1165 from {% highlight c %}retval = get_user_pages(current, current->mm, (unsigned long)uvAddr,{% endhighlight %} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to {% highlight c %}retval = get_user_pages_remote(current, current->mm, (unsigned long)uvAddr,{% endhighlight %}
 * Save the file and recreate ```vmmon.tar``` with the newly modified file by running ```tar -cvf vmmon.tar /vmmon-only```
 * Untar ```vmnet.tar``` by running ```tar -xvf vmnet.tar```
 * Open ```/vmnet-only/userif.c``` in the newly created directory
-* Change line 116 from {% highlight c %}retval = get_user_pages(current, current->mm, addr,{% endhighlight %} to {% highlight c %}retval = get_user_pages_remote(current, current->mm, addr,{% endhighlight %}
+* Change line 116 from {% highlight c %}retval = get_user_pages(current, current->mm, addr,{% endhighlight %} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to {% highlight c %}retval = get_user_pages_remote(current, current->mm, addr,{% endhighlight %}
 * Save the file and recreate ```vmnet.tar``` with the newly modified file by running ```tar -cvf vmnet.tar /vmmnet-only```
 * Start VMware Workstation and let the prompt imitate compiling or run ```vmware-modconfig --console --install-all```
 
